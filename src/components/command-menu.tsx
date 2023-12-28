@@ -31,7 +31,7 @@ export const CommandMenu = ({ links }: Props) => {
     document.addEventListener("keydown", down);
     return () => document.removeEventListener("keydown", down);
   }, []);
-
+  return null
   return (
     <>
       <p className="fixed bottom-0 left-0 right-0 border-t border-t-muted bg-white p-1 text-center text-sm text-muted-foreground print:hidden">
